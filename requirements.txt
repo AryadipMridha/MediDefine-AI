@@ -1,0 +1,12 @@
+# Versions pinned by the original notebook (Step 1). 4-bit loading via
+# bitsandbytes requires a CUDA GPU.
+accelerate==0.21.0
+peft==0.4.0
+bitsandbytes==0.40.2
+transformers==4.31.0
+trl==0.4.7
+huggingface_hub
+
+# Used by the notebook but preinstalled on Colab, so not pinned there.
+torch
+datasets
